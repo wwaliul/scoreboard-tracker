@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "timerType";
+    src:url(timer.ttf)
+}
+
+body {
+    margin: 15rem;
+    text-align: center;
+    background-color: #badfe771; 
+    font-family: timerType;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    color: black;   
+}
+
+.background {
+    width: 200px;
+    height: 100px;
+    padding: 0 48 48 48;
+    border-style: ;
+}
+
+#homeScore, #guestScore {
+    width: 200px;
+    height: 100px;
+    background: #388087;
+    color: rgb(255, 255, 255);   
+    font-size: 90px;
+}
+
+
+button {
+    background: #000000;
+    color: #F6F6F2;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button:hover {
+    border-radius: 5px;
+    background-color: #BADFE7;
+    color: #000000;
+
+}
+
+.resetBtn {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
